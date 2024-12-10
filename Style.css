@@ -33,6 +33,7 @@
     padding: 10px 40px;
     font-size: 16px;
     background-color: rgb(244, 96, 96);
+    transition: 1s ease;
 }
 
 h1,
@@ -99,4 +100,13 @@ h3 {
 .sub-container-4:hover>.icon {
     background-color: #CE1212;
     color: #FFFF;
+}
+
+.item-1:hover {
+    background-color: white;
+}
+
+.item-1:hover>a {
+    color: #CE1212;
+
 }
